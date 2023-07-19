@@ -1,0 +1,58 @@
+Method is a way to perform some task.
+Method is a collection of instructions that perform 
+a specific task.
+It provides the reusability of code.
+We can also easily modify code using methods.
+
+1] What is a method in Java?
+A method is a block of code or statements to perform a certain
+task or operation.
+write a method once and use it many times.
+
+2] Method Declaration
+The method declaration provides information about method attributes,
+such as visibility, return type,name, and arguments.
+It has six components that are known as method header, as we have
+shown in following :
+
+public int sum(int a,int b)
+{
+	//method body
+} 
+
+Access specifier :- public, private, protected, default
+Return Type :- return type can be any data type that the method returns.
+			   It may have a primitive data type, object, collection, void etc.  
+Method name :- It is a unique name that is used to define the name of a method.
+parameter list
+method body
+
+
+3] Types of Method
+There are two types of methods in Java
+a)Predefined Method
+b)User-defined Method
+
+a)Predefined Method
+predefined methods are the method that is already defined in the Java class 
+libraries is known as predefined methods.
+It is also known as the standard library method or built-in method.
+We can directly use these methods just by calling them in the program at any 
+point. Some pre-defined methods are length(), equals(), compareTo(), sqrt(), etc.
+Each and every predefined method is defined inside a class. Such as print() method
+is defined in the java.io.PrintStream class. It prints the statement that we write 
+inside the method. For example, print("Java"), it prints Java on the console.
+
+b)User-defined Method
+The method written by the user or programmer is known as a user-defined method.
+These methods are modified according to the requirement.
+
+//user defined method  
+public static void findEvenOdd(int num)  
+{  
+//method body  
+if(num%2==0)   
+System.out.println(num+" is even");   
+else   
+System.out.println(num+" is odd");  
+}  

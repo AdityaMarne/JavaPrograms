@@ -1,0 +1,9 @@
+If you declare any variable as static, it is known as a static
+variable.
+
+1] The static variable can be used to refer to the common 
+   property of all objects (which is not unique for each object), 
+   for example, the company name of employees, college name of
+   students, etc.
+2] The static variable gets memory only once in the class area
+   at the time of class loading.

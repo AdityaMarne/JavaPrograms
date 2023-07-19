@@ -1,0 +1,44 @@
+In OOP technique, design a program using objects and classes.
+
+Object in java is the physical as well as a logical entity, where
+a class in java is a logical entity only.
+
+1] What is an object in java
+Ans :- An entity that as state and behavior is known as an object eg. chair,
+	   bike, marker, pen etc. It can be physical or logical.
+	   A Object 
+	   
+	   An object has three characteristics.
+	   a]state : represnts the data(value) of an object.
+	   b]behavior : represents the behavior (functionality) of an object such 
+	                 as deposit, withdraw, etc.
+	   c]identity : An object identity is typically implemented via a unique ID.
+	                The value of the ID is not visible to the external user.
+	                
+Example :- pen is an object. Its name is reynolds, color is white know as its state.
+		   It is used to write so writing is its behavior.
+		   
+		   
+2] What is a class in Java
+Ans :- A class is a group of objects which have common properties. It is a logical 
+	   entity. It can't be physical.
+	   
+	   A class in java contains
+	   a]Fields
+	   b]Methods
+	   c]Constructor
+	   d]Blocks
+	   e]Nested class and interface
+	   
+	   Syntax :-
+	   class class_name{
+	   	fields;
+	   	methods;
+	   }
+	   
+	   
+3] Ways to initialize objects
+Ans :- There are 3 ways to initialize object in java
+	   1]By reference variable
+	   2]By method
+	   3]By constructor 
